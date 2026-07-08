@@ -1,7 +1,10 @@
 # ⚔️ The Adventurer's Guild Quest Board
 
+## Descirption
 A simple, single-page web project built with basic **HTML, CSS, and JavaScript**.
 It displays an interactive "Quest Card" where heroes can view a quest and accept it with a single click.
+
+---
 
 ## Features
 
@@ -11,9 +14,10 @@ It displays an interactive "Quest Card" where heroes can view a quest and accept
   - Changes the button text to **"Quest Accepted!"**
   - Changes the button color from **green to gray**
   - **Disables** the button so it cannot be clicked again
+ 
+---
 
 ## Project Structure
-
 ```
 quest-board/
 ├── index.html   → The structure of the page (card, title, description, button)
@@ -21,11 +25,20 @@ quest-board/
 └── script.js    → The interactivity (what happens when the button is clicked)
 ```
 
-## How the Code Works
+---
 
+
+## How the Code Works
 1. **index.html** builds the page: a `<div>` acts as the quest card, containing an `<h2>` title, a `<p>` description, and a `<button>` with the id `accept-btn`. It links to the CSS and JS files.
 2. **style.css** styles the card (white background, golden border, rounded corners, shadow) and gives the button its green color.
 3. **script.js** finds the button using `document.getElementById("accept-btn")` and listens for a click with `addEventListener`. When clicked, it updates the button's text (`textContent`), changes its background color (`style.backgroundColor`), and disables it (`disabled = true`).
+
+---
+
+## Output (Demonstration in a GIF File Format)
+<img width="800" height="422" alt="The Adventurer&#39;s Guild Quest Board-GIF" src="https://github.com/user-attachments/assets/13e08ae6-fc03-43b9-bb9b-d25763e0fd36" />
+
+---
 
 ## How to Run
 
