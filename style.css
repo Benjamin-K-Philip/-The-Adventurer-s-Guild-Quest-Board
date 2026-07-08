@@ -1,0 +1,53 @@
+/* ===== Page styles ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5efe0;   /* light parchment color */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #4a3520;
+}
+
+/* ===== The Quest Card ===== */
+.quest-card {
+  background-color: #ffffff;
+  max-width: 350px;
+  margin: 30px auto;           /* centers the card on the page */
+  padding: 25px;
+  border: 2px solid #c9a95c;   /* golden border */
+  border-radius: 10px;         /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.quest-title {
+  color: #7a1f1f;              /* deep red title */
+  margin-top: 0;
+}
+
+.quest-description {
+  color: #555555;
+  line-height: 1.5;
+}
+
+/* ===== The Button ===== */
+#accept-btn {
+  background-color: #2e8b57;   /* green */
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Slightly darker green when hovering */
+#accept-btn:hover {
+  background-color: #256e45;
+}
+
+/* When the button is disabled, show a "not allowed" cursor */
+#accept-btn:disabled {
+  cursor: not-allowed;
+}
