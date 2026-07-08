@@ -1,6 +1,6 @@
 # ⚔️ The Adventurer's Guild Quest Board
 
-## Descirption
+## Description
 A simple, single-page web project built with basic **HTML, CSS, and JavaScript**.
 It displays an interactive "Quest Card" where heroes can view a quest and accept it with a single click.
 
